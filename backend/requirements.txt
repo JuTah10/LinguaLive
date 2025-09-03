@@ -1,0 +1,12 @@
+# Core FastAPI stack
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.7
+
+# File uploads (FastAPI uses this for UploadFile)
+python-multipart==0.0.9
+
+# Whisper for transcription
+openai-whisper==20240930  # or latest available
+
+
