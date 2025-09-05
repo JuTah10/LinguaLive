@@ -1,3 +1,6 @@
+# ------------------------
+# Python (FastAPI backend)
+# ------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -61,7 +64,7 @@ coverage.xml
 .vscode/
 .idea/
 
-# FastAPI specific (optional, if you generate logs, etc.)
+# FastAPI specific (optional)
 *.db
 *.sqlite3
 *.log
@@ -69,3 +72,45 @@ coverage.xml
 # Env files (secrets, API keys, etc.)
 .env
 .env.*
+
+# ------------------------
+# React (frontend)
+# ------------------------
+# dependencies
+node_modules/
+bower_components/
+
+# build output
+build/
+dist/
+out/
+.next/
+.cache/
+.npm/
+
+# testing
+coverage/
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
